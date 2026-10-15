@@ -7,18 +7,18 @@
 </head>
 <body>
 
-    <nav>
-        <a th:href="@{/juegos}" class="nav-brand">🎮 GameVault</a>
-        <div class="nav-links">
-            <a th:href="@{/juegos}">Catálogo</a>
-            <a th:href="@{/juegos/nuevo}">Subir Juego</a>
-            <a th:href="@{/fragments-demo}" style="color: var(--success); margin-left:20px;">[Teoría]</a>
-        </div>
-    </nav>
+<nav>
+    <a th:href="@{/juegos}" class="nav-brand">🎮 GameVault</a>
+    <div class="nav-links">
+        <a th:href="@{/juegos}">Catálogo</a>
+        <a th:href="@{/juegos/nuevo}">Subir Juego</a>
+        <a th:href="@{/fragments-demo}" style="color: var(--success); margin-left:20px;">[Teoría]</a>
+    </div>
+</nav>
 
-    <main class="container" th:replace="${content}">
-        
-    </main>
+<main class="container" th:replace="${content}">
+
+</main>
 
 </body>
 </html>
